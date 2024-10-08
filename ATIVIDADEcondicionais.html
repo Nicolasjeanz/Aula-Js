@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Guarda Chuva</title>
+    </head>
+    <body>
+        <script>
+            let esta_chovendo = prompt("Está chovendo? (Sim/Não)").toLowerCase() === "sim";
+            let tem_guarda_chuva = prompt("Você tem guarda chuva? (Sim/Não)").toLowerCase() === "sim";;
+
+            if(esta_chovendo && tem_guarda_chuva) {
+                alert ("Está chovendo, pegue seu guarda chuva!");
+            } else {
+                if (esta_chovendo){
+                    alert("Está chovendo,mas você não tem guarda-chuva. Melhor ficar em casa!");
+                } else  {
+                    alert("Não está chovendo,você pode sair sem preocupações!"); 
+                }
+            }
+            
+        </script>
+    </body>
+</html>
